@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-World 控制面板</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="side">
+    <div class="brand"><span class="dot"></span> AI-World <small id="ver"></small></div>
+    <nav id="nav"></nav>
+    <div class="side-foot">
+      <div id="health" class="muted small">连接中…</div>
+      <button id="btn-reload" class="ghost small" title="改完 源码/panel/api/ 里的文件不用重启面板">热重载功能</button>
+    </div>
+  </aside>
+  <main id="main">
+    <header id="head">
+      <h1 id="title">加载中…</h1>
+      <p id="sub" class="muted"></p>
+    </header>
+    <div id="warnbar"></div>
+    <section id="view"></section>
+  </main>
+</div>
+<div id="toasts"></div>
+<script src="/app.js"></script>
+</body>
+</html>

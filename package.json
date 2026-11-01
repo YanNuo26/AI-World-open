@@ -1,0 +1,22 @@
+{
+  "name": "ai-world",
+  "version": "1.1.0",
+  "description": "一个用 mineflayer 控制的 AI，进入创造模式后自动搭建小型建筑",
+  "main": "源码/bot.js",
+  "scripts": {
+    "start": "node 源码/bot.js",
+    "panel": "node 源码/panel/server.js",
+    "night": "node 测试/夜间回归.js",
+    "guard": "node 测试/守门.js",
+    "test:panel": "node 测试/test_panel.js",
+    "check": "node --check 源码/config.js && node --check 源码/access.js && node --check 源码/logger.js && node --check 源码/玩家登记.js && node --check 源码/bot.js && node --check 源码/build.js && node --check 源码/movement.js && node --check 源码/rcon.js && node --check 源码/panel/server.js && node --check 源码/panel/loader.js && node --check 源码/panel/api/_util.js && node --check 源码/panel/api/_state.js && node --check 源码/panel/api/_procs.js && node --check 源码/panel/api/_fields.js && node --check 源码/panel/api/_profiles.js && node --check 源码/panel/api/_settings.js && node --check 源码/panel/api/overview.js && node --check 源码/panel/api/processes.js && node --check 源码/panel/api/config.js && node --check 源码/panel/api/perf.js && node --check 源码/panel/api/logs.js && node --check 源码/panel/web/app.js && node --check 测试/夜间回归.js && node --check 测试/守门.js && node --check 测试/test_panel.js",
+    "server": "powershell -ExecutionPolicy Bypass -File 脚本/start_server.ps1"
+  },
+  "dependencies": {
+    "minecraft-data": "^3.117.0",
+    "mineflayer": "^4.39.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "prismarine-item": "^1.18.0",
+    "vec3": "^0.2.0"
+  }
+}

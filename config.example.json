@@ -1,0 +1,39 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 25565,
+    "version": "1.21.1",
+    "auth": "offline",
+    "username": "",
+    "profilesFolder": ""
+  },
+  "rcon": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 25575,
+    "password": ""
+  },
+  "ai": {
+    "name": "world",
+    "autoOp": "local-only",
+    "opWhitelist": [],
+    "obeyWhitelist": [],
+    "owner": "",
+    "guestPrefix": "way-"
+  },
+  "behavior": {
+    "markOnBuild": true,
+    "reconnect": {
+      "enabled": true,
+      "maxDelayMs": 30000
+    }
+  },
+  "building": {
+    "building": "house",
+    "size": 5,
+    "height": 3,
+    "floor": "stone",
+    "wall": "oak_planks",
+    "roof": "bricks"
+  }
+}
