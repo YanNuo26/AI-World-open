@@ -10,9 +10,9 @@ Minecraft **1.21.1** 建造机器人 + 本地控制面板。
 
 ### 方式 1：exe 安装包（推荐）
 
-👉 **[点这里下载最新版](https://github.com/YanNuo26/AI-World-open/releases/latest)** → 选 `AI-World-*-安装包.exe`
+👉 **[点这里下载最新版](https://github.com/YanNuo26/AI-World-open/releases/latest)** → 选 **`AI-World-*-Setup.exe`**（安装包）
 
-1. 双击下载的 exe
+1. 双击下载的 exe（Windows 可能提示「未知发布者」→ 更多信息 → 仍要运行）
 2. **选安装位置**（默认 `%LOCALAPPDATA%\Programs\AI-World`，不需要管理员权限；想放 D 盘就点「浏览」）
 3. 勾上「创建桌面快捷方式」→ 点「安装」
 4. 装完双击桌面的 **AI-World** 图标 → 浏览器自动打开面板
@@ -22,7 +22,7 @@ Minecraft **1.21.1** 建造机器人 + 本地控制面板。
 
 ### 方式 2：绿色包（不想装东西）
 
-在 [Releases](https://github.com/YanNuo26/AI-World-open/releases/latest) 里下载 `.zip`，解压后双击 **`启动面板(无窗口).vbs`**（不弹黑框；关掉浏览器 60 秒后面板自动退出）。
+在 [Releases](https://github.com/YanNuo26/AI-World-open/releases/latest) 里下载 **`AI-World-*-portable.zip`**，解压后双击 **`启动面板(无窗口).vbs`**（不弹黑框；关掉浏览器 60 秒后面板自动退出）。
 
 > 两种方式都**没有** `server.jar`（版权 + 体积）。要本机开服自己下 1.21.1 服务端放进 `服务器\`，并装 **Java 21**；
 > 连别人的服/远程服则完全不需要 Java。
